@@ -1,7 +1,11 @@
 from sqlalchemy import Column, Integer, String
+from sqlalchemy.ext.declarative import declarative_base
 from text_adventure_game import db
 
-class Player(db.Model):
+# Crear la clase Base, que es la base de todos los modelos de SQLAlchemy
+Base = declarative_base()
+
+class Player(Base):
     __tablename__ = 'players'
 
     id = Column(Integer, primary_key=True)
@@ -9,5 +13,7 @@ class Player(db.Model):
     level = Column(Integer, default=1)
     experience = Column(Integer, default=0)
 
-    def __repr__(self):
-        return f"<Player(id={self.id}, username={self.username}, level={self.level})>"
+    def __init__(self, username, level, experience):
+        self.username = username
+        self.level = level
+        self.experience = experience

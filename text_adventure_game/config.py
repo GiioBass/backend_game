@@ -1,7 +1,8 @@
-# config.py
-
+from dotenv import load_dotenv
 import os
 
-# Configuración de la base de datos
-DATABASE_URL = os.getenv('DATABASE_URL', 'mysql+pymysql://username:password@localhost/db_name')
+# Cargar variables de entorno desde .env
+load_dotenv()
 
+# Obtener la URL de la base de datos desde la variable de entorno
+DATABASE_URL = os.getenv('DATABASE_URL')

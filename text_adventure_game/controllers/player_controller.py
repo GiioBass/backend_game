@@ -7,10 +7,13 @@ from text_adventure_game.models.player_model import Player
 session = Session()
 
 def create_player():
-    data = request.json
-    new_player = Player(username=data['username'], email=data['email'], password=data['password'])
+    data = request.get_json()
+    username = data.get('username')
+    level = 0
+    experience = 0
+    new_player = Player(username=username, level=level, experience=experience)
     
     session.add(new_player)
     session.commit()
     
-    return jsonify({"message": "Player created", "player_id": new_player.id}), 201
+    return jsonify({"message": "Player created", "player_id": new_player.username}), 201
