@@ -8,5 +8,5 @@ def register_player():
     return create_player()
 
 @player_bp.route('/login', methods=['POST'])
-def login_player():
-    return create_player()
+def login():
+    return login_player()

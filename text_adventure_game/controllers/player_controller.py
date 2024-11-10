@@ -70,6 +70,7 @@ def login_player():
         if not player.check_password(password):
             return jsonify({"message": "Incorrect password"}), 401
 
-        return jsonify({"message": "Login successful", "player_id": player.id}), 200
+        return jsonify({"message": "Login successful", "player_id": player.id, "player_name": player.user_name}), 200
     except Exception as e:
+        session.rollback()  
         return jsonify({"message": f"An error occurred: {str(e)}"}), 500

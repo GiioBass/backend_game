@@ -14,3 +14,77 @@ WHERE players.email = %s
  LIMIT %s
 2024-11-10 15:52:39,901 - sqlalchemy.engine.Engine - INFO - [generated in 0.00021s] ('test@test.co', 1)
 2024-11-10 15:52:39,903 - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2024 15:52:39] "[31m[1mPOST /player/login HTTP/1.1[0m" 400 -
+2024-11-10 15:54:04,133 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/routes/player_routes.py', reloading
+2024-11-10 15:54:04,201 - werkzeug - INFO -  * Restarting with stat
+2024-11-10 15:54:04,678 - werkzeug - WARNING -  * Debugger is active!
+2024-11-10 15:54:04,686 - werkzeug - INFO -  * Debugger PIN: 100-169-765
+2024-11-10 15:54:06,699 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/routes/player_routes.py', reloading
+2024-11-10 15:54:06,760 - werkzeug - INFO -  * Restarting with stat
+2024-11-10 15:54:07,062 - werkzeug - WARNING -  * Debugger is active!
+2024-11-10 15:54:07,064 - werkzeug - INFO -  * Debugger PIN: 100-169-765
+2024-11-10 15:54:08,814 - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2024 15:54:08] "[35m[1mPOST /player/login HTTP/1.1[0m" 500 -
+2024-11-10 15:54:27,157 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/controllers/player_controller.py', reloading
+2024-11-10 15:54:27,230 - werkzeug - INFO -  * Restarting with stat
+2024-11-10 15:54:27,554 - werkzeug - WARNING -  * Debugger is active!
+2024-11-10 15:54:27,555 - werkzeug - INFO -  * Debugger PIN: 100-169-765
+2024-11-10 15:54:28,565 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/controllers/player_controller.py', reloading
+2024-11-10 15:54:28,627 - werkzeug - INFO -  * Restarting with stat
+2024-11-10 15:54:33,178 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-10 15:54:33,178 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-10 15:54:33,179 - werkzeug - INFO -  * Restarting with stat
+2024-11-10 15:54:33,484 - werkzeug - WARNING -  * Debugger is active!
+2024-11-10 15:54:33,485 - werkzeug - INFO -  * Debugger PIN: 100-169-765
+2024-11-10 15:54:35,030 - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2024 15:54:35] "[35m[1mPOST /player/login HTTP/1.1[0m" 500 -
+2024-11-10 15:55:10,641 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/routes/player_routes.py', reloading
+2024-11-10 15:55:10,724 - werkzeug - INFO -  * Restarting with stat
+2024-11-10 15:55:11,224 - werkzeug - WARNING -  * Debugger is active!
+2024-11-10 15:55:11,230 - werkzeug - INFO -  * Debugger PIN: 100-169-765
+2024-11-10 15:55:12,347 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-10 15:55:12,349 - sqlalchemy.engine.Engine - INFO - SELECT players.id AS players_id, players.user_name AS players_user_name, players.email AS players_email, players.user_code AS players_user_code, players.password AS players_password, players.uuid AS players_uuid 
+FROM players 
+WHERE players.email = %s 
+ LIMIT %s
+2024-11-10 15:55:12,349 - sqlalchemy.engine.Engine - INFO - [generated in 0.00020s] ('test@test.co', 1)
+2024-11-10 15:55:12,350 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2024-11-10 15:55:12,351 - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2024 15:55:12] "[35m[1mPOST /player/login HTTP/1.1[0m" 500 -
+2024-11-10 15:55:30,409 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-10 15:55:30,409 - sqlalchemy.engine.Engine - INFO - SELECT players.id AS players_id, players.user_name AS players_user_name, players.email AS players_email, players.user_code AS players_user_code, players.password AS players_password, players.uuid AS players_uuid 
+FROM players 
+WHERE players.email = %s 
+ LIMIT %s
+2024-11-10 15:55:30,410 - sqlalchemy.engine.Engine - INFO - [cached since 18.06s ago] ('test@test.co', 1)
+2024-11-10 15:55:30,661 - sqlalchemy.engine.Engine - INFO - INSERT INTO players (user_name, email, user_code, password, uuid) VALUES (%s, %s, %s, %s, %s)
+2024-11-10 15:55:30,661 - sqlalchemy.engine.Engine - INFO - [generated in 0.00028s] ('player_2', 'test@test.co', 'xxx', '$2b$12$mW7fGfmpi3VUwpUD16K/s.8ZQMmZSybFpt94ko7N8Num6Z8GkEjgC', UUID('59d824bf-3c3c-4e79-a1e7-b4a05404b2b5'))
+2024-11-10 15:55:30,740 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-10 15:55:30,745 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-10 15:55:30,746 - sqlalchemy.engine.Engine - INFO - SELECT players.id AS players_id, players.user_name AS players_user_name, players.email AS players_email, players.user_code AS players_user_code, players.password AS players_password, players.uuid AS players_uuid 
+FROM players 
+WHERE players.id = %s
+2024-11-10 15:55:30,746 - sqlalchemy.engine.Engine - INFO - [generated in 0.00025s] (9,)
+2024-11-10 15:55:30,747 - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2024 15:55:30] "[35m[1mPOST /player/register HTTP/1.1[0m" 201 -
+2024-11-10 15:55:35,381 - sqlalchemy.engine.Engine - INFO - SELECT players.id AS players_id, players.user_name AS players_user_name, players.email AS players_email, players.user_code AS players_user_code, players.password AS players_password, players.uuid AS players_uuid 
+FROM players 
+WHERE players.email = %s 
+ LIMIT %s
+2024-11-10 15:55:35,381 - sqlalchemy.engine.Engine - INFO - [cached since 23.03s ago] ('test@test.co', 1)
+2024-11-10 15:55:35,587 - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2024 15:55:35] "POST /player/login HTTP/1.1" 200 -
+2024-11-10 15:55:51,353 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/controllers/player_controller.py', reloading
+2024-11-10 15:55:51,435 - werkzeug - INFO -  * Restarting with stat
+2024-11-10 15:55:51,755 - werkzeug - WARNING -  * Debugger is active!
+2024-11-10 15:55:51,757 - werkzeug - INFO -  * Debugger PIN: 100-169-765
+2024-11-10 15:55:54,772 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/controllers/player_controller.py', reloading
+2024-11-10 15:55:54,834 - werkzeug - INFO -  * Restarting with stat
+2024-11-10 15:55:55,162 - werkzeug - WARNING -  * Debugger is active!
+2024-11-10 15:55:55,163 - werkzeug - INFO -  * Debugger PIN: 100-169-765
+2024-11-10 15:55:59,183 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/controllers/player_controller.py', reloading
+2024-11-10 15:55:59,250 - werkzeug - INFO -  * Restarting with stat
+2024-11-10 15:55:59,610 - werkzeug - WARNING -  * Debugger is active!
+2024-11-10 15:55:59,612 - werkzeug - INFO -  * Debugger PIN: 100-169-765
+2024-11-10 15:55:59,619 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-10 15:55:59,621 - sqlalchemy.engine.Engine - INFO - SELECT players.id AS players_id, players.user_name AS players_user_name, players.email AS players_email, players.user_code AS players_user_code, players.password AS players_password, players.uuid AS players_uuid 
+FROM players 
+WHERE players.email = %s 
+ LIMIT %s
+2024-11-10 15:55:59,622 - sqlalchemy.engine.Engine - INFO - [generated in 0.00031s] ('test@test.co', 1)
+2024-11-10 15:55:59,831 - werkzeug - INFO - 127.0.0.1 - - [10/Nov/2024 15:55:59] "POST /player/login HTTP/1.1" 200 -
