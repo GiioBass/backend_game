@@ -6,6 +6,7 @@ from email_validator import validate_email, EmailNotValidError
 from sqlalchemy.exc import IntegrityError
 import uuid
 from text_adventure_game.utils.logger import logger
+from text_adventure_game.utils.auth import generate_token
 
 
 session = Session()
@@ -70,7 +71,17 @@ def login_player():
         if not player.check_password(password):
             return jsonify({"message": "Incorrect password"}), 401
 
-        return jsonify({"message": "Login successful", "player_id": player.id, "player_name": player.user_name}), 200
+        token = generate_token(player.uuid)
+        return jsonify({"message": "Login successful", "player_id": player.id, "player_name": player.user_name, "token": token}), 200
     except Exception as e:
         session.rollback()  
         return jsonify({"message": f"An error occurred: {str(e)}"}), 500
+    
+def get_profile_player(id):
+    """Endpoint protegido, solo accesible con token válido"""
+    # Accede al ID del usuario desde request.user_id (proporcionado por el middleware)
+    user_id = id
+    player = session.query(Player).get(user_id)
+    if player:
+        return jsonify({"user_name": player.user_name, "email": player.email}), 200
+    return jsonify({"message": "User not found"}), 404
