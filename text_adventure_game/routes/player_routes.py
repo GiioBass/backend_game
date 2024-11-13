@@ -1,8 +1,6 @@
-from flask import Blueprint, request, jsonify
+from flask import Blueprint
 from text_adventure_game.controllers.player_controller import create_player, login_player,  get_profile_player
 from text_adventure_game.utils.middleware_auth import token_required
-from text_adventure_game.models.player_model import Player
-
 
 player_bp = Blueprint('player', __name__)
 

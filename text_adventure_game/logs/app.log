@@ -1,0 +1,796 @@
+2024-11-11 01:28:15,611 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-11 01:28:15,611 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-11 01:28:15,611 - werkzeug - INFO -  * Restarting with stat
+2024-11-11 01:28:15,985 - werkzeug - WARNING -  * Debugger is active!
+2024-11-11 01:28:16,042 - werkzeug - INFO -  * Debugger PIN: 357-242-947
+2024-11-11 01:28:29,179 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/models/player_model.py', reloading
+2024-11-11 01:28:29,244 - werkzeug - INFO -  * Restarting with stat
+2024-11-11 01:28:29,682 - werkzeug - WARNING -  * Debugger is active!
+2024-11-11 01:28:29,684 - werkzeug - INFO -  * Debugger PIN: 357-242-947
+2024-11-11 01:29:22,223 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/models/player_model.py', reloading
+2024-11-11 01:29:22,302 - werkzeug - INFO -  * Restarting with stat
+2024-11-11 01:29:22,854 - werkzeug - WARNING -  * Debugger is active!
+2024-11-11 01:29:22,863 - werkzeug - INFO -  * Debugger PIN: 357-242-947
+2024-11-11 01:29:24,204 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-11 01:29:24,204 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-11 01:29:24,204 - werkzeug - INFO -  * Restarting with stat
+2024-11-11 01:29:24,540 - werkzeug - WARNING -  * Debugger is active!
+2024-11-11 01:29:24,542 - werkzeug - INFO -  * Debugger PIN: 357-242-947
+2024-11-12 21:07:40,795 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-12 21:07:40,795 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-12 21:07:40,796 - werkzeug - INFO -  * Restarting with stat
+2024-11-12 21:07:41,117 - werkzeug - WARNING -  * Debugger is active!
+2024-11-12 21:07:41,124 - werkzeug - INFO -  * Debugger PIN: 127-137-956
+2024-11-12 21:42:11,967 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/models/character_model.py', reloading
+2024-11-12 21:42:12,089 - werkzeug - INFO -  * Restarting with stat
+2024-11-12 21:42:12,629 - werkzeug - WARNING -  * Debugger is active!
+2024-11-12 21:42:12,636 - werkzeug - INFO -  * Debugger PIN: 127-137-956
+2024-11-12 21:43:37,494 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/database.py', reloading
+2024-11-12 21:43:37,556 - werkzeug - INFO -  * Restarting with stat
+2024-11-12 21:47:23,499 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 21:47:23,526 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 21:47:23,526 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 21:47:23,532 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 21:47:23,532 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 21:47:23,533 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 21:47:23,533 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 21:47:23,533 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 21:47:23,533 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 21:47:23,534 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 21:47:23,534 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 21:47:23,534 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.
+2024-11-12 21:47:23,534 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 21:47:23,535 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 21:50:26,626 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 21:50:26,654 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 21:50:26,654 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 21:50:26,661 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 21:50:26,661 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 21:50:26,662 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 21:50:26,662 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 21:50:26,662 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 21:50:26,662 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 21:50:26,663 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 21:50:26,663 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 21:50:26,664 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.
+2024-11-12 21:50:26,675 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 21:50:26,675 - sqlalchemy.engine.Engine - INFO - DESCRIBE `DB_game`.`players`
+2024-11-12 21:50:26,675 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 21:50:26,678 - sqlalchemy.engine.Engine - INFO - DESCRIBE `DB_game`.`characters`
+2024-11-12 21:50:26,678 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 21:50:26,680 - sqlalchemy.engine.Engine - INFO - 
+CREATE TABLE players (
+	id INTEGER NOT NULL AUTO_INCREMENT, 
+	user_name VARCHAR(50) NOT NULL, 
+	email VARCHAR(50) NOT NULL, 
+	user_code VARCHAR(50) NOT NULL, 
+	password VARCHAR(255) NOT NULL, 
+	uuid VARCHAR(255) NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (uuid)
+)
+
+
+2024-11-12 21:50:26,680 - sqlalchemy.engine.Engine - INFO - [no key 0.00016s] ()
+2024-11-12 21:50:26,720 - sqlalchemy.engine.Engine - INFO - CREATE UNIQUE INDEX ix_players_email ON players (email)
+2024-11-12 21:50:26,720 - sqlalchemy.engine.Engine - INFO - [no key 0.00021s] ()
+2024-11-12 21:50:26,746 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2024-11-12 21:51:04,042 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 21:51:04,054 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 21:51:04,054 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 21:51:04,058 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 21:51:04,058 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 21:51:04,059 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 21:51:04,059 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 21:51:04,059 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 21:51:04,059 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 21:51:04,060 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 21:51:04,060 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 21:51:04,060 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.
+2024-11-12 21:51:04,103 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 21:51:04,103 - sqlalchemy.engine.Engine - INFO - DESCRIBE `DB_game`.`players`
+2024-11-12 21:51:04,103 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 21:51:04,106 - sqlalchemy.engine.Engine - INFO - DESCRIBE `DB_game`.`characters`
+2024-11-12 21:51:04,106 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 21:51:04,107 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2024-11-12 21:52:41,784 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 21:52:41,810 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 21:52:41,811 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 21:52:41,818 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 21:52:41,818 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 21:52:41,819 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 21:52:41,819 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 21:52:41,819 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 21:52:41,819 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 21:52:41,820 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 21:52:41,820 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 21:52:41,821 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.
+2024-11-12 21:52:41,830 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 21:52:41,831 - sqlalchemy.engine.Engine - INFO - DESCRIBE `DB_game`.`players`
+2024-11-12 21:52:41,831 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 21:52:41,834 - sqlalchemy.engine.Engine - INFO - DESCRIBE `DB_game`.`characters`
+2024-11-12 21:52:41,834 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 21:52:41,837 - sqlalchemy.engine.Engine - INFO - 
+CREATE TABLE characters (
+	id INTEGER NOT NULL AUTO_INCREMENT, 
+	name VARCHAR(50) NOT NULL, 
+	level INTEGER, 
+	health FLOAT, 
+	energy FLOAT, 
+	experience FLOAT, 
+	player_id INTEGER NOT NULL, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(player_id) REFERENCES players (id)
+)
+
+
+2024-11-12 21:52:41,837 - sqlalchemy.engine.Engine - INFO - [no key 0.00016s] ()
+2024-11-12 21:52:41,870 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 21:58:47,277 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 21:58:47,304 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 21:58:47,304 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 21:58:47,311 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 21:58:47,312 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 21:58:47,312 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 21:58:47,312 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 21:58:47,313 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 21:58:47,313 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 21:58:47,314 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 21:58:47,314 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 21:58:47,314 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.
+2024-11-12 21:58:47,372 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-12 21:58:47,373 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-12 21:58:47,374 - werkzeug - INFO -  * Restarting with stat
+2024-11-12 21:58:47,680 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 21:58:47,691 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 21:58:47,691 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 21:58:47,695 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 21:58:47,695 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 21:58:47,696 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 21:58:47,696 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 21:58:47,696 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 21:58:47,697 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 21:58:47,697 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 21:58:47,697 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 21:58:47,698 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.
+2024-11-12 21:58:47,734 - werkzeug - WARNING -  * Debugger is active!
+2024-11-12 21:58:47,742 - werkzeug - INFO -  * Debugger PIN: 127-137-956
+2024-11-12 21:58:50,244 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 21:58:50] "[35m[1mPOST /player/register HTTP/1.1[0m" 500 -
+2024-11-12 22:06:37,508 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/models/player_model.py', reloading
+2024-11-12 22:06:37,605 - werkzeug - INFO -  * Restarting with stat
+2024-11-12 22:06:37,921 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 22:06:37,933 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 22:06:37,933 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 22:06:37,938 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 22:06:37,939 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:06:37,939 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 22:06:37,939 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:06:37,940 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 22:06:37,940 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:06:37,941 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 22:06:37,941 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 22:06:37,942 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.
+2024-11-12 22:09:11,456 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 22:09:11,482 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 22:09:11,482 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 22:09:11,488 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 22:09:11,488 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:09:11,489 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 22:09:11,489 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:09:11,489 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 22:09:11,489 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:09:11,490 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 22:09:11,490 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 22:09:11,490 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.
+2024-11-12 22:09:37,929 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 22:09:37,940 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 22:09:37,940 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 22:09:37,944 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 22:09:37,944 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:09:37,944 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 22:09:37,944 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:09:37,945 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 22:09:37,945 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:09:37,946 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 22:09:37,946 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 22:09:37,946 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.
+2024-11-12 22:10:33,605 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 22:10:33,617 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 22:10:33,617 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 22:10:33,620 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 22:10:33,621 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:10:33,621 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 22:10:33,622 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:10:33,622 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 22:10:33,622 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:10:33,623 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 22:10:33,623 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 22:10:33,623 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.
+2024-11-12 22:10:33,624 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 22:10:33,624 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 22:10:45,891 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 22:10:45,902 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 22:10:45,902 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 22:10:45,906 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 22:10:45,906 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:10:45,907 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 22:10:45,907 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:10:45,908 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 22:10:45,908 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:10:45,908 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 22:10:45,909 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 22:10:45,909 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.
+2024-11-12 22:11:15,964 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 22:11:15,976 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 22:11:15,976 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 22:11:15,980 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 22:11:15,980 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:11:15,981 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 22:11:15,981 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:11:15,982 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 22:11:15,982 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:11:15,982 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 22:11:15,982 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 22:11:15,983 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.
+2024-11-12 22:11:16,025 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 22:11:16,025 - sqlalchemy.engine.Engine - INFO - DESCRIBE `DB_game`.`players`
+2024-11-12 22:11:16,025 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:11:16,027 - sqlalchemy.engine.Engine - INFO - DESCRIBE `DB_game`.`characters`
+2024-11-12 22:11:16,027 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:11:16,028 - sqlalchemy.engine.Engine - INFO - 
+CREATE TABLE players (
+	id INTEGER NOT NULL AUTO_INCREMENT, 
+	user_name VARCHAR(50) NOT NULL, 
+	email VARCHAR(50) NOT NULL, 
+	user_code VARCHAR(50) NOT NULL, 
+	password VARCHAR(255) NOT NULL, 
+	uuid VARCHAR(255) NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (uuid)
+)
+
+
+2024-11-12 22:11:16,028 - sqlalchemy.engine.Engine - INFO - [no key 0.00016s] ()
+2024-11-12 22:11:16,067 - sqlalchemy.engine.Engine - INFO - CREATE UNIQUE INDEX ix_players_email ON players (email)
+2024-11-12 22:11:16,067 - sqlalchemy.engine.Engine - INFO - [no key 0.00040s] ()
+2024-11-12 22:11:16,089 - sqlalchemy.engine.Engine - INFO - 
+CREATE TABLE characters (
+	id INTEGER NOT NULL AUTO_INCREMENT, 
+	name VARCHAR(50) NOT NULL, 
+	level INTEGER, 
+	health FLOAT, 
+	energy FLOAT, 
+	experience FLOAT, 
+	player_id INTEGER NOT NULL, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(player_id) REFERENCES players (id)
+)
+
+
+2024-11-12 22:11:16,089 - sqlalchemy.engine.Engine - INFO - [no key 0.00026s] ()
+2024-11-12 22:11:16,121 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 22:14:40,230 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 22:14:40,258 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 22:14:40,258 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 22:14:40,265 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 22:14:40,265 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:14:40,266 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 22:14:40,266 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:14:40,266 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 22:14:40,266 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:14:40,267 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 22:14:40,267 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 22:14:40,268 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.
+2024-11-12 22:14:40,326 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-12 22:14:40,326 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-12 22:14:40,327 - werkzeug - INFO -  * Restarting with stat
+2024-11-12 22:14:40,622 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 22:14:40,633 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 22:14:40,633 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 22:14:40,638 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 22:14:40,638 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:14:40,639 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 22:14:40,639 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:14:40,639 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 22:14:40,639 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:14:40,640 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 22:14:40,640 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 22:14:40,640 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.
+2024-11-12 22:14:40,674 - werkzeug - WARNING -  * Debugger is active!
+2024-11-12 22:14:40,718 - werkzeug - INFO -  * Debugger PIN: 127-137-956
+2024-11-12 22:14:42,851 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 22:14:42] "[35m[1mPOST /player/register HTTP/1.1[0m" 500 -
+2024-11-12 22:18:10,370 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/models/player_model.py', reloading
+2024-11-12 22:18:10,463 - werkzeug - INFO -  * Restarting with stat
+2024-11-12 22:18:10,741 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 22:18:10,754 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 22:18:10,754 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 22:18:10,759 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 22:18:10,759 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:18:10,759 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 22:18:10,760 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:18:10,760 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 22:18:10,760 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:18:10,761 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 22:18:10,761 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 22:18:10,761 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.
+2024-11-12 22:18:10,798 - werkzeug - WARNING -  * Debugger is active!
+2024-11-12 22:18:10,800 - werkzeug - INFO -  * Debugger PIN: 127-137-956
+2024-11-12 22:18:23,899 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/models/player_model.py', reloading
+2024-11-12 22:18:23,969 - werkzeug - INFO -  * Restarting with stat
+2024-11-12 22:18:24,234 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 22:18:24,244 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 22:18:24,244 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 22:18:24,248 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 22:18:24,248 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:18:24,248 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 22:18:24,248 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:18:24,249 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 22:18:24,249 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:18:24,249 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 22:18:24,250 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 22:18:24,250 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.
+2024-11-12 22:18:24,284 - werkzeug - WARNING -  * Debugger is active!
+2024-11-12 22:18:24,286 - werkzeug - INFO -  * Debugger PIN: 127-137-956
+2024-11-12 22:18:26,299 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/models/player_model.py', reloading
+2024-11-12 22:18:26,371 - werkzeug - INFO -  * Restarting with stat
+2024-11-12 22:18:26,650 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 22:18:26,660 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 22:18:26,661 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 22:18:26,664 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 22:18:26,664 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:18:26,665 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 22:18:26,665 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:18:26,665 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 22:18:26,665 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:18:26,666 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 22:18:26,666 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 22:18:26,666 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.
+2024-11-12 22:18:26,703 - werkzeug - WARNING -  * Debugger is active!
+2024-11-12 22:18:26,705 - werkzeug - INFO -  * Debugger PIN: 127-137-956
+2024-11-12 22:18:27,718 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/models/player_model.py', reloading
+2024-11-12 22:18:27,790 - werkzeug - INFO -  * Restarting with stat
+2024-11-12 22:18:28,054 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 22:18:28,064 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 22:18:28,064 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 22:18:28,067 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 22:18:28,067 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:18:28,068 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 22:18:28,068 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:18:28,069 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 22:18:28,069 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:18:28,069 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 22:18:28,069 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 22:18:28,070 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.
+2024-11-12 22:18:28,105 - werkzeug - WARNING -  * Debugger is active!
+2024-11-12 22:18:28,106 - werkzeug - INFO -  * Debugger PIN: 127-137-956
+2024-11-12 22:18:51,598 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/models/player_model.py', reloading
+2024-11-12 22:18:51,675 - werkzeug - INFO -  * Restarting with stat
+2024-11-12 22:18:51,954 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 22:18:51,964 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 22:18:51,965 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 22:18:51,969 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 22:18:51,969 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:18:51,969 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 22:18:51,969 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:18:51,970 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 22:18:51,970 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:18:51,970 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 22:18:51,971 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 22:18:51,971 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.
+2024-11-12 22:18:52,040 - werkzeug - WARNING -  * Debugger is active!
+2024-11-12 22:18:52,042 - werkzeug - INFO -  * Debugger PIN: 127-137-956
+2024-11-12 22:19:10,038 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 22:19:10] "[35m[1mPOST /player/register HTTP/1.1[0m" 500 -
+2024-11-12 22:19:43,083 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/models/player_model.py', reloading
+2024-11-12 22:19:43,172 - werkzeug - INFO -  * Restarting with stat
+2024-11-12 22:19:43,604 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 22:19:43,626 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 22:19:43,626 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 22:19:43,632 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 22:19:43,632 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:19:43,633 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 22:19:43,633 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:19:43,634 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 22:19:43,634 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:19:43,634 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 22:19:43,635 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 22:19:43,635 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.
+2024-11-12 22:20:18,309 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 22:20:18,319 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 22:20:18,319 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 22:20:18,324 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 22:20:18,324 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:20:18,325 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 22:20:18,325 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:20:18,326 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 22:20:18,326 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:20:18,326 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 22:20:18,326 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 22:20:18,327 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.
+2024-11-12 22:20:18,424 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-12 22:20:18,424 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-12 22:20:18,425 - werkzeug - INFO -  * Restarting with stat
+2024-11-12 22:20:18,713 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 22:20:18,724 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 22:20:18,724 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 22:20:18,728 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 22:20:18,728 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:20:18,729 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 22:20:18,729 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:20:18,729 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 22:20:18,729 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:20:18,730 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 22:20:18,730 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 22:20:18,731 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.
+2024-11-12 22:20:18,767 - werkzeug - WARNING -  * Debugger is active!
+2024-11-12 22:20:18,774 - werkzeug - INFO -  * Debugger PIN: 127-137-956
+2024-11-12 22:20:19,999 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 22:20:20,001 - sqlalchemy.engine.Engine - INFO - SELECT players.id AS players_id, players.user_name AS players_user_name, players.email AS players_email, players.user_code AS players_user_code, players.password AS players_password, players.uuid AS players_uuid 
+FROM players 
+WHERE players.email = %s 
+ LIMIT %s
+2024-11-12 22:20:20,001 - sqlalchemy.engine.Engine - INFO - [generated in 0.00037s] ('test@test.co', 1)
+2024-11-12 22:20:20,220 - sqlalchemy.engine.Engine - INFO - INSERT INTO players (user_name, email, user_code, password, uuid) VALUES (%s, %s, %s, %s, %s)
+2024-11-12 22:20:20,220 - sqlalchemy.engine.Engine - INFO - [generated in 0.00029s] ('player_2', 'test@test.co', 'xxx', '$2b$12$hGE5bV9yoCpXLpLpUhmyBeaAc6tw0aHVhusMWQx6MAQTb0LwqK.KO', UUID('711cd89a-f548-42e3-b77c-d2176dd81cda'))
+2024-11-12 22:20:20,224 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 22:20:20,230 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 22:20:20,231 - sqlalchemy.engine.Engine - INFO - SELECT players.id AS players_id, players.user_name AS players_user_name, players.email AS players_email, players.user_code AS players_user_code, players.password AS players_password, players.uuid AS players_uuid 
+FROM players 
+WHERE players.id = %s
+2024-11-12 22:20:20,231 - sqlalchemy.engine.Engine - INFO - [generated in 0.00021s] (1,)
+2024-11-12 22:20:20,232 - werkzeug - INFO - 127.0.0.1 - - [12/Nov/2024 22:20:20] "[35m[1mPOST /player/register HTTP/1.1[0m" 201 -
+2024-11-12 22:46:00,857 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/routes/player_routes.py', reloading
+2024-11-12 22:46:00,953 - werkzeug - INFO -  * Restarting with stat
+2024-11-12 22:46:01,420 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 22:46:01,445 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 22:46:01,445 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 22:46:01,452 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 22:46:01,452 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:46:01,453 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 22:46:01,453 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:46:01,453 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 22:46:01,453 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:46:01,454 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 22:46:01,454 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 22:46:01,455 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.
+2024-11-12 22:46:01,509 - werkzeug - WARNING -  * Debugger is active!
+2024-11-12 22:46:01,517 - werkzeug - INFO -  * Debugger PIN: 127-137-956
+2024-11-12 22:48:34,447 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/routes/player_routes.py', reloading
+2024-11-12 22:48:34,533 - werkzeug - INFO -  * Restarting with stat
+2024-11-12 22:48:34,183 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 22:48:34,207 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 22:48:34,207 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 22:48:34,213 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 22:48:34,213 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:48:34,213 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 22:48:34,214 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:48:34,214 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 22:48:34,214 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:48:34,215 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 22:48:34,215 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 22:48:34,215 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.
+2024-11-12 22:48:34,276 - werkzeug - WARNING -  * Debugger is active!
+2024-11-12 22:48:34,284 - werkzeug - INFO -  * Debugger PIN: 127-137-956
+2024-11-12 22:48:35,294 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/routes/player_routes.py', reloading
+2024-11-12 22:48:35,360 - werkzeug - INFO -  * Restarting with stat
+2024-11-12 22:48:35,716 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 22:48:35,728 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 22:48:35,728 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 22:48:35,732 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 22:48:35,732 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:48:35,733 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 22:48:35,733 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:48:35,733 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 22:48:35,733 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:48:35,734 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 22:48:35,734 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 22:48:35,734 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.
+2024-11-12 22:48:35,772 - werkzeug - WARNING -  * Debugger is active!
+2024-11-12 22:48:35,774 - werkzeug - INFO -  * Debugger PIN: 127-137-956
+2024-11-12 22:51:13,653 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/routes/routes.py', reloading
+2024-11-12 22:51:13,727 - werkzeug - INFO -  * Restarting with stat
+2024-11-12 22:51:14,178 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 22:51:14,202 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 22:51:14,202 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 22:51:14,207 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 22:51:14,208 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:51:14,208 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 22:51:14,208 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:51:14,209 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 22:51:14,209 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:51:14,210 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 22:51:14,210 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 22:51:14,210 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.
+2024-11-12 22:51:14,265 - werkzeug - WARNING -  * Debugger is active!
+2024-11-12 22:51:14,273 - werkzeug - INFO -  * Debugger PIN: 127-137-956
+2024-11-12 22:51:15,284 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/routes/routes.py', reloading
+2024-11-12 22:51:15,362 - werkzeug - INFO -  * Restarting with stat
+2024-11-12 22:51:15,637 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 22:51:15,648 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 22:51:15,648 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 22:51:15,652 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 22:51:15,652 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:51:15,653 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 22:51:15,653 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:51:15,654 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 22:51:15,654 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:51:15,654 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 22:51:15,655 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 22:51:15,655 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.
+2024-11-12 22:51:15,692 - werkzeug - WARNING -  * Debugger is active!
+2024-11-12 22:51:15,693 - werkzeug - INFO -  * Debugger PIN: 127-137-956
+2024-11-12 22:51:16,703 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/routes/routes.py', reloading
+2024-11-12 22:51:16,772 - werkzeug - INFO -  * Restarting with stat
+2024-11-12 22:51:17,044 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 22:51:17,055 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 22:51:17,055 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 22:51:17,059 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 22:51:17,059 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:51:17,059 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 22:51:17,059 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:51:17,060 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 22:51:17,060 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:51:17,060 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 22:51:17,061 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 22:51:17,061 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.
+2024-11-12 22:51:17,095 - werkzeug - WARNING -  * Debugger is active!
+2024-11-12 22:51:17,097 - werkzeug - INFO -  * Debugger PIN: 127-137-956
+2024-11-12 22:51:18,118 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/routes/routes.py', reloading
+2024-11-12 22:51:18,191 - werkzeug - INFO -  * Restarting with stat
+2024-11-12 22:51:18,494 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 22:51:18,504 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 22:51:18,504 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 22:51:18,508 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 22:51:18,508 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:51:18,509 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 22:51:18,509 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:51:18,509 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 22:51:18,510 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:51:18,510 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 22:51:18,511 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 22:51:18,511 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.
+2024-11-12 22:51:18,549 - werkzeug - WARNING -  * Debugger is active!
+2024-11-12 22:51:18,551 - werkzeug - INFO -  * Debugger PIN: 127-137-956
+2024-11-12 22:51:39,686 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/routes/routes.py', reloading
+2024-11-12 22:51:39,775 - werkzeug - INFO -  * Restarting with stat
+2024-11-12 22:51:40,053 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 22:51:40,065 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 22:51:40,065 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 22:51:40,069 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 22:51:40,069 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:51:40,070 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 22:51:40,070 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:51:40,070 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 22:51:40,071 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:51:40,071 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 22:51:40,071 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 22:51:40,072 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.
+2024-11-12 22:51:40,107 - werkzeug - WARNING -  * Debugger is active!
+2024-11-12 22:51:40,109 - werkzeug - INFO -  * Debugger PIN: 127-137-956
+2024-11-12 22:51:42,122 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/routes/routes.py', reloading
+2024-11-12 22:51:42,196 - werkzeug - INFO -  * Restarting with stat
+2024-11-12 22:51:42,484 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 22:51:42,496 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 22:51:42,496 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 22:51:42,500 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 22:51:42,500 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:51:42,500 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 22:51:42,500 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:51:42,501 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 22:51:42,501 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:51:42,501 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 22:51:42,502 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 22:51:42,502 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.
+2024-11-12 22:51:42,541 - werkzeug - WARNING -  * Debugger is active!
+2024-11-12 22:51:42,542 - werkzeug - INFO -  * Debugger PIN: 127-137-956
+2024-11-12 22:51:45,827 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/routes/routes.py', reloading
+2024-11-12 22:51:45,909 - werkzeug - INFO -  * Restarting with stat
+2024-11-12 22:51:46,208 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 22:51:46,218 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 22:51:46,218 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 22:51:46,221 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 22:51:46,221 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:51:46,222 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 22:51:46,222 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:51:46,222 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 22:51:46,223 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:51:46,223 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 22:51:46,223 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 22:51:46,224 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.
+2024-11-12 22:51:46,260 - werkzeug - WARNING -  * Debugger is active!
+2024-11-12 22:51:46,261 - werkzeug - INFO -  * Debugger PIN: 127-137-956
+2024-11-12 22:51:48,289 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/routes/routes.py', reloading
+2024-11-12 22:51:48,363 - werkzeug - INFO -  * Restarting with stat
+2024-11-12 22:51:48,634 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 22:51:48,645 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 22:51:48,645 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 22:51:48,648 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 22:51:48,648 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:51:48,649 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 22:51:48,649 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:51:48,649 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 22:51:48,650 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:51:48,650 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 22:51:48,650 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 22:51:48,651 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.
+2024-11-12 22:51:48,686 - werkzeug - WARNING -  * Debugger is active!
+2024-11-12 22:51:48,688 - werkzeug - INFO -  * Debugger PIN: 127-137-956
+2024-11-12 22:51:51,708 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/routes/routes.py', reloading
+2024-11-12 22:51:51,776 - werkzeug - INFO -  * Restarting with stat
+2024-11-12 22:51:52,054 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 22:51:52,066 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 22:51:52,066 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 22:51:52,069 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 22:51:52,070 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:51:52,070 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 22:51:52,070 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:51:52,071 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 22:51:52,071 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:51:52,071 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 22:51:52,072 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 22:51:52,072 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.
+2024-11-12 22:51:52,106 - werkzeug - WARNING -  * Debugger is active!
+2024-11-12 22:51:52,108 - werkzeug - INFO -  * Debugger PIN: 127-137-956
+2024-11-12 22:51:55,129 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/routes/routes.py', reloading
+2024-11-12 22:51:55,204 - werkzeug - INFO -  * Restarting with stat
+2024-11-12 22:51:55,482 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 22:51:55,492 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 22:51:55,492 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 22:51:55,496 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 22:51:55,496 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:51:55,497 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 22:51:55,497 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:51:55,497 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 22:51:55,498 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:51:55,498 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 22:51:55,498 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 22:51:55,499 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.
+2024-11-12 22:51:55,536 - werkzeug - WARNING -  * Debugger is active!
+2024-11-12 22:51:55,538 - werkzeug - INFO -  * Debugger PIN: 127-137-956
+2024-11-12 22:52:02,691 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/routes/routes.py', reloading
+2024-11-12 22:52:02,760 - werkzeug - INFO -  * Restarting with stat
+2024-11-12 22:52:03,036 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 22:52:03,047 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 22:52:03,047 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 22:52:03,051 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 22:52:03,051 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:52:03,052 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 22:52:03,052 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:52:03,053 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 22:52:03,053 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:52:03,053 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 22:52:03,053 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 22:52:03,054 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.
+2024-11-12 22:52:03,089 - werkzeug - WARNING -  * Debugger is active!
+2024-11-12 22:52:03,090 - werkzeug - INFO -  * Debugger PIN: 127-137-956
+2024-11-12 22:52:04,100 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/routes/routes.py', reloading
+2024-11-12 22:52:04,168 - werkzeug - INFO -  * Restarting with stat
+2024-11-12 22:52:04,435 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 22:52:04,446 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 22:52:04,446 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 22:52:04,450 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 22:52:04,450 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:52:04,451 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 22:52:04,451 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:52:04,451 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 22:52:04,451 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:52:04,452 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 22:52:04,452 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 22:52:04,452 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.
+2024-11-12 22:52:04,488 - werkzeug - WARNING -  * Debugger is active!
+2024-11-12 22:52:04,489 - werkzeug - INFO -  * Debugger PIN: 127-137-956
+2024-11-12 22:52:06,509 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/routes/routes.py', reloading
+2024-11-12 22:52:06,589 - werkzeug - INFO -  * Restarting with stat
+2024-11-12 22:52:06,871 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 22:52:06,881 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 22:52:06,882 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 22:52:06,885 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 22:52:06,885 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:52:06,886 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 22:52:06,886 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:52:06,887 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 22:52:06,887 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:52:06,887 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 22:52:06,887 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 22:52:06,888 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.
+2024-11-12 22:52:06,922 - werkzeug - WARNING -  * Debugger is active!
+2024-11-12 22:52:06,924 - werkzeug - INFO -  * Debugger PIN: 127-137-956
+2024-11-12 22:52:07,934 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/routes/routes.py', reloading
+2024-11-12 22:52:08,008 - werkzeug - INFO -  * Restarting with stat
+2024-11-12 22:52:08,278 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 22:52:08,288 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 22:52:08,288 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 22:52:08,292 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 22:52:08,292 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:52:08,293 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 22:52:08,293 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:52:08,294 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 22:52:08,294 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:52:08,294 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 22:52:08,295 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 22:52:08,295 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.
+2024-11-12 22:52:08,330 - werkzeug - WARNING -  * Debugger is active!
+2024-11-12 22:52:08,332 - werkzeug - INFO -  * Debugger PIN: 127-137-956
+2024-11-12 22:52:10,347 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/routes/routes.py', reloading
+2024-11-12 22:52:10,421 - werkzeug - INFO -  * Restarting with stat
+2024-11-12 22:52:10,693 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 22:52:10,704 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 22:52:10,704 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 22:52:10,708 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 22:52:10,708 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:52:10,709 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 22:52:10,709 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:52:10,709 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 22:52:10,709 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:52:10,710 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 22:52:10,710 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 22:52:10,711 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.
+2024-11-12 22:52:10,744 - werkzeug - WARNING -  * Debugger is active!
+2024-11-12 22:52:10,746 - werkzeug - INFO -  * Debugger PIN: 127-137-956
+2024-11-12 22:52:14,971 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/routes/routes.py', reloading
+2024-11-12 22:52:15,037 - werkzeug - INFO -  * Restarting with stat
+2024-11-12 22:52:15,313 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 22:52:15,323 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 22:52:15,323 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 22:52:15,327 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 22:52:15,327 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:52:15,328 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 22:52:15,328 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:52:15,328 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 22:52:15,328 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:52:15,329 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 22:52:15,329 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 22:52:15,330 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.
+2024-11-12 22:52:15,364 - werkzeug - WARNING -  * Debugger is active!
+2024-11-12 22:52:15,365 - werkzeug - INFO -  * Debugger PIN: 127-137-956
+2024-11-12 22:52:18,382 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/routes/routes.py', reloading
+2024-11-12 22:52:18,473 - werkzeug - INFO -  * Restarting with stat
+2024-11-12 22:52:18,743 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 22:52:18,753 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 22:52:18,753 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 22:52:18,757 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 22:52:18,757 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:52:18,758 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 22:52:18,758 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:52:18,758 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 22:52:18,758 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:52:18,759 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 22:52:18,759 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 22:52:18,760 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.
+2024-11-12 22:52:18,794 - werkzeug - WARNING -  * Debugger is active!
+2024-11-12 22:52:18,796 - werkzeug - INFO -  * Debugger PIN: 127-137-956
+2024-11-12 22:52:37,895 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/app.py', reloading
+2024-11-12 22:52:37,970 - werkzeug - INFO -  * Restarting with stat
+2024-11-12 22:52:38,247 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 22:52:38,258 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 22:52:38,258 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 22:52:38,263 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 22:52:38,264 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:52:38,264 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 22:52:38,264 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:52:38,265 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 22:52:38,265 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:52:38,265 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 22:52:38,266 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 22:52:38,266 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.
+2024-11-12 22:52:38,300 - werkzeug - WARNING -  * Debugger is active!
+2024-11-12 22:52:38,302 - werkzeug - INFO -  * Debugger PIN: 127-137-956
+2024-11-12 22:52:43,326 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/app.py', reloading
+2024-11-12 22:52:43,395 - werkzeug - INFO -  * Restarting with stat
+2024-11-12 22:52:43,665 - text_adventure_game.utils.logger - INFO - <class 'sqlalchemy.orm.decl_api.Base'>
+2024-11-12 22:52:43,675 - text_adventure_game.utils.logger - INFO - Engine(mysql://giio:***@localhost/DB_game)
+2024-11-12 22:52:43,675 - text_adventure_game.utils.logger - INFO - Modelos detectados para la creación de tablas: dict_keys([])
+2024-11-12 22:52:43,679 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-12 22:52:43,679 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:52:43,679 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-12 22:52:43,680 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:52:43,680 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-12 22:52:43,680 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-12 22:52:43,681 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-12 22:52:43,681 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-12 22:52:43,681 - text_adventure_game.utils.logger - INFO - Tablas creadas exitosamente.

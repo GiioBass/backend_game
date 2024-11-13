@@ -1,8 +1,7 @@
-from sqlalchemy import Column, Integer, String
-from sqlalchemy.ext.declarative import declarative_base
-from werkzeug.security import generate_password_hash, check_password_hash
-from text_adventure_game.database import Base  # Importamos Base de db.py
 import bcrypt
+from sqlalchemy.orm import relationship
+from sqlalchemy import Column, Integer, String
+from text_adventure_game.database import Base  # Importamos Base de db.py
 class Player(Base):
     __tablename__ = "players"
 
@@ -14,6 +13,7 @@ class Player(Base):
         String(255), unique=False, nullable=False, info={"protected": True}
     )
     uuid = Column(String(255), unique=True, nullable=False)
+    characters = relationship("Character", back_populates="player")
 
     def __init__(self, user_name, email, user_code, password, uuid):
         self.user_name = user_name
@@ -28,3 +28,5 @@ class Player(Base):
 
     def check_password(self, password: str) -> bool:
         return bcrypt.checkpw(password.encode('utf-8'), self.password.encode('utf-8'))
+    
+from text_adventure_game.models.character_model import Character
