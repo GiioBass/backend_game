@@ -1,7 +1,7 @@
 import jwt
 from datetime import datetime, timedelta
 from text_adventure_game.config import SECRET_KEY  # Asegúrate de tener una clave secreta en tu configuración
-from text_adventure_game.models.player_model import Player
+from text_adventure_game.utils.logger import logger
 
 def generate_token(user_id):
     """Generar un token JWT para el usuario con su ID"""

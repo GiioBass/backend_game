@@ -9,7 +9,7 @@ from text_adventure_game.utils.logger import logger
 from text_adventure_game.utils.auth import generate_token
 
 
-session = Session()
+session_db = Session()
 
 def create_player():
     try:
@@ -23,7 +23,7 @@ def create_player():
         
         
          # Verifica si el email ya existe
-        existing_player = session.query(Player).filter_by(email=email).first()
+        existing_player = session_db.query(Player).filter_by(email=email).first()
         if existing_player:
             return jsonify({"message": "Email already exists"}), 400
         
@@ -35,15 +35,15 @@ def create_player():
             
         new_player = Player(user_name=user_name,email=email,user_code=user_code,password=password,uuid=user_uuid,)
 
-        session.add(new_player)
-        session.commit()
+        session_db.add(new_player)
+        session_db.commit()
 
         return jsonify({"message": "Player created", "player_id": new_player.user_name}),201
     
     except Exception as e:
         return jsonify({"message": f"An error occurred: {str(e)}"}), 500
     except IntegrityError as e:
-        session.rollback()  # Rollback the transaction
+        session_db.rollback()  # Rollback the transaction
         return jsonify({"message": "Email already exists"}), 400
 
 def is_valid_email(email):
@@ -62,7 +62,7 @@ def login_player():
         password = data.get("password")
 
         # Buscar al jugador por su email
-        player = session.query(Player).filter_by(email=email).first()
+        player = session_db.query(Player).filter_by(email=email).first()
 
         if not player:
             return jsonify({"message": "Email not found"}), 404
@@ -74,14 +74,14 @@ def login_player():
         token = generate_token(player.uuid)
         return jsonify({"message": "Login successful", "player_id": player.id, "player_name": player.user_name, "token": token}), 200
     except Exception as e:
-        session.rollback()  
+        session_db.rollback()  
         return jsonify({"message": f"An error occurred: {str(e)}"}), 500
     
 def get_profile_player(id):
     """Endpoint protegido, solo accesible con token válido"""
     # Accede al ID del usuario desde request.user_id (proporcionado por el middleware)
     user_id = id
-    player = session.query(Player).get(user_id)
+    player = session_db.query(Player).get(user_id)
     if player:
         return jsonify({"user_name": player.user_name, "email": player.email}), 200
     return jsonify({"message": "User not found"}), 404
