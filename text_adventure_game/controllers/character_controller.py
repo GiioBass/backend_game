@@ -8,8 +8,18 @@ session_db = Session()
 def create_character_player():
     try:
         player_uuid = str(session.get('player_uuid')) 
-        logger.debug(f'uuid player: {player_uuid}')
         player = session_db.query(Player).filter_by(uuid=player_uuid).first()
+        
+        data = request.get_json()
+        name = data.get('name')
+        level = 0
+        health = 100
+        energy = 100
+        experience = 0
+        player_id = player.id
+        
+        new_character = 
+       
         return jsonify({'message':'Character created successfull', 'player_id': player.id, 'player_name': player.user_name}), 200
     except Exception as e:
         return jsonify({'An error occurred while creating the character'}), 500
