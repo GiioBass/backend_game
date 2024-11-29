@@ -5,14 +5,14 @@ from text_adventure_game.utils.middleware_auth import token_required
 player_bp = Blueprint('player', __name__)
 
 @player_bp.route('/register', methods=['POST'])
-def register_player():
+def register_player_route():
     return create_player()
 
 @player_bp.route('/login', methods=['POST'])
-def login():
+def login_route():
     return login_player()
 
 @player_bp.route('/profile/<int:id>', methods=['GET'])
 @token_required  # Protección con el middleware
-def profile(id):
+def profile_route(id):
     return get_profile_player(id)

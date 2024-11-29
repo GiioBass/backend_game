@@ -1,24 +1,274 @@
-2024-11-28 23:36:24,719 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
-2024-11-28 23:36:24,721 - sqlalchemy.engine.Engine - INFO - SELECT players.id AS players_id, players.user_name AS players_user_name, players.email AS players_email, players.user_code AS players_user_code, players.password AS players_password, players.uuid AS players_uuid 
-FROM players 
-WHERE players.email = %s 
- LIMIT %s
-2024-11-28 23:36:24,721 - sqlalchemy.engine.Engine - INFO - [generated in 0.00025s] ('test@test.co', 1)
-2024-11-28 23:36:24,959 - werkzeug - INFO - 127.0.0.1 - - [28/Nov/2024 23:36:24] "POST /player/login HTTP/1.1" 200 -
-2024-11-28 23:41:41,906 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
-2024-11-28 23:41:41,944 - sqlalchemy.engine.Engine - INFO - SELECT players.id AS players_id, players.user_name AS players_user_name, players.email AS players_email, players.user_code AS players_user_code, players.password AS players_password, players.uuid AS players_uuid 
+2024-11-29 00:06:24,645 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-29 00:06:24,648 - sqlalchemy.engine.Engine - INFO - SELECT players.id AS players_id, players.user_name AS players_user_name, players.email AS players_email, players.user_code AS players_user_code, players.password AS players_password, players.uuid AS players_uuid 
 FROM players 
 WHERE players.uuid = %s 
  LIMIT %s
-2024-11-28 23:41:41,944 - sqlalchemy.engine.Engine - INFO - [generated in 0.00024s] ('711cd89a-f548-42e3-b77c-d2176dd81cda', 1)
-2024-11-28 23:41:41,955 - werkzeug - INFO - 127.0.0.1 - - [28/Nov/2024 23:41:41] "[35m[1mPOST /character/create HTTP/1.1[0m" 500 -
-2024-11-28 23:44:05,284 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/controllers/character_controller.py', reloading
-2024-11-28 23:44:05,390 - werkzeug - INFO -  * Restarting with stat
-2024-11-28 23:44:05,914 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
-2024-11-28 23:44:05,914 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
-2024-11-28 23:44:05,915 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
-2024-11-28 23:44:05,915 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
-2024-11-28 23:44:05,916 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
-2024-11-28 23:44:05,916 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
-2024-11-28 23:44:05,917 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
-2024-11-28 23:44:05,917 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-29 00:06:24,648 - sqlalchemy.engine.Engine - INFO - [generated in 0.00023s] ('711cd89a-f548-42e3-b77c-d2176dd81cda', 1)
+2024-11-29 00:06:24,649 - text_adventure_game.utils.logger - INFO - player character controller: Scox Aleera
+2024-11-29 00:06:24,649 - werkzeug - INFO - 127.0.0.1 - - [29/Nov/2024 00:06:24] "POST /character/create HTTP/1.1" 200 -
+2024-11-29 00:06:45,926 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/controllers/character_controller.py', reloading
+2024-11-29 00:06:46,096 - werkzeug - INFO -  * Restarting with stat
+2024-11-29 00:06:46,569 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-29 00:06:46,570 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:06:46,570 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-29 00:06:46,570 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:06:46,571 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-29 00:06:46,571 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:06:46,571 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-29 00:06:46,572 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-29 00:06:46,633 - werkzeug - WARNING -  * Debugger is active!
+2024-11-29 00:06:46,640 - werkzeug - INFO -  * Debugger PIN: 919-312-444
+2024-11-29 00:06:47,657 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/controllers/character_controller.py', reloading
+2024-11-29 00:06:47,727 - werkzeug - INFO -  * Restarting with stat
+2024-11-29 00:06:48,032 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-29 00:06:48,032 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:06:48,033 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-29 00:06:48,033 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:06:48,033 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-29 00:06:48,033 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:06:48,034 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-29 00:06:48,034 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-29 00:06:48,071 - werkzeug - WARNING -  * Debugger is active!
+2024-11-29 00:06:48,072 - werkzeug - INFO -  * Debugger PIN: 919-312-444
+2024-11-29 00:06:50,221 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-29 00:06:50,223 - sqlalchemy.engine.Engine - INFO - SELECT players.id AS players_id, players.user_name AS players_user_name, players.email AS players_email, players.user_code AS players_user_code, players.password AS players_password, players.uuid AS players_uuid 
+FROM players 
+WHERE players.uuid = %s 
+ LIMIT %s
+2024-11-29 00:06:50,223 - sqlalchemy.engine.Engine - INFO - [generated in 0.00024s] ('711cd89a-f548-42e3-b77c-d2176dd81cda', 1)
+2024-11-29 00:06:50,225 - text_adventure_game.utils.logger - INFO - player character controller: 1
+2024-11-29 00:06:50,225 - werkzeug - INFO - 127.0.0.1 - - [29/Nov/2024 00:06:50] "POST /character/create HTTP/1.1" 200 -
+2024-11-29 00:09:43,026 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/controllers/character_controller.py', reloading
+2024-11-29 00:09:43,108 - werkzeug - INFO -  * Restarting with stat
+2024-11-29 00:09:43,609 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-29 00:09:43,609 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:09:43,610 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-29 00:09:43,610 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:09:43,610 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-29 00:09:43,610 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:09:43,611 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-29 00:09:43,611 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-29 00:09:43,670 - werkzeug - WARNING -  * Debugger is active!
+2024-11-29 00:09:43,678 - werkzeug - INFO -  * Debugger PIN: 919-312-444
+2024-11-29 00:10:52,482 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/controllers/character_controller.py', reloading
+2024-11-29 00:10:52,563 - werkzeug - INFO -  * Restarting with stat
+2024-11-29 00:10:52,903 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-29 00:10:52,903 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:10:52,904 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-29 00:10:52,904 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:10:52,904 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-29 00:10:52,904 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:10:52,905 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-29 00:10:52,905 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-29 00:11:09,558 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-29 00:11:09,558 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:11:09,559 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-29 00:11:09,559 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:11:09,559 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-29 00:11:09,559 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:11:09,560 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-29 00:11:09,560 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-29 00:11:09,627 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-29 00:11:09,627 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-29 00:11:09,628 - werkzeug - INFO -  * Restarting with stat
+2024-11-29 00:11:09,937 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-29 00:11:09,937 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:11:09,938 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-29 00:11:09,938 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:11:09,938 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-29 00:11:09,938 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:11:09,939 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-29 00:11:09,939 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-29 00:11:09,975 - werkzeug - WARNING -  * Debugger is active!
+2024-11-29 00:11:09,977 - werkzeug - INFO -  * Debugger PIN: 919-312-444
+2024-11-29 00:11:15,156 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-29 00:11:15,158 - sqlalchemy.engine.Engine - INFO - SELECT players.id AS players_id, players.user_name AS players_user_name, players.email AS players_email, players.user_code AS players_user_code, players.password AS players_password, players.uuid AS players_uuid 
+FROM players 
+WHERE players.uuid = %s 
+ LIMIT %s
+2024-11-29 00:11:15,158 - sqlalchemy.engine.Engine - INFO - [generated in 0.00020s] ('711cd89a-f548-42e3-b77c-d2176dd81cda', 1)
+2024-11-29 00:11:15,160 - text_adventure_game.utils.logger - INFO - player character controller: 1
+2024-11-29 00:11:15,161 - sqlalchemy.engine.Engine - INFO - INSERT INTO characters (name, level, health, energy, experience, player_id) VALUES (%s, %s, %s, %s, %s, %s)
+2024-11-29 00:11:15,161 - sqlalchemy.engine.Engine - INFO - [generated in 0.00025s] ('Scox Aleera', 0, 100, 100, 0, 1)
+2024-11-29 00:11:15,169 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-29 00:11:15,181 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-29 00:11:15,183 - sqlalchemy.engine.Engine - INFO - SELECT characters.id AS characters_id, characters.name AS characters_name, characters.level AS characters_level, characters.health AS characters_health, characters.energy AS characters_energy, characters.experience AS characters_experience, characters.player_id AS characters_player_id 
+FROM characters 
+WHERE characters.id = %s
+2024-11-29 00:11:15,183 - sqlalchemy.engine.Engine - INFO - [generated in 0.00021s] (1,)
+2024-11-29 00:11:15,184 - werkzeug - INFO - 127.0.0.1 - - [29/Nov/2024 00:11:15] "POST /character/create HTTP/1.1" 200 -
+2024-11-29 00:28:12,941 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/controllers/character_controller.py', reloading
+2024-11-29 00:28:13,061 - werkzeug - INFO -  * Restarting with stat
+2024-11-29 00:28:13,499 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-29 00:28:13,499 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:28:13,500 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-29 00:28:13,500 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:28:13,501 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-29 00:28:13,501 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:28:13,501 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-29 00:28:13,502 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-29 00:28:13,573 - werkzeug - WARNING -  * Debugger is active!
+2024-11-29 00:28:13,581 - werkzeug - INFO -  * Debugger PIN: 919-312-444
+2024-11-29 00:28:14,592 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/controllers/character_controller.py', reloading
+2024-11-29 00:28:14,672 - werkzeug - INFO -  * Restarting with stat
+2024-11-29 00:28:14,951 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-29 00:28:14,951 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:28:14,952 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-29 00:28:14,952 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:28:14,952 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-29 00:28:14,952 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:28:14,953 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-29 00:28:14,953 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-29 00:28:14,990 - werkzeug - WARNING -  * Debugger is active!
+2024-11-29 00:28:14,992 - werkzeug - INFO -  * Debugger PIN: 919-312-444
+2024-11-29 00:28:28,069 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/routes/character_routes.py', reloading
+2024-11-29 00:28:28,140 - werkzeug - INFO -  * Restarting with stat
+2024-11-29 00:28:28,428 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-29 00:28:28,428 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:28:28,429 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-29 00:28:28,429 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:28:28,429 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-29 00:28:28,429 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:28:28,430 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-29 00:28:28,430 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-29 00:28:28,467 - werkzeug - WARNING -  * Debugger is active!
+2024-11-29 00:28:28,469 - werkzeug - INFO -  * Debugger PIN: 919-312-444
+2024-11-29 00:28:40,514 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/routes/character_routes.py', reloading
+2024-11-29 00:28:40,595 - werkzeug - INFO -  * Restarting with stat
+2024-11-29 00:28:40,891 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-29 00:28:40,891 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:28:40,891 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-29 00:28:40,892 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:28:40,892 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-29 00:28:40,892 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:28:40,893 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-29 00:28:40,893 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-29 00:40:41,921 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-29 00:40:41,921 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:40:41,922 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-29 00:40:41,922 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:40:41,922 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-29 00:40:41,923 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:40:41,923 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-29 00:40:41,923 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-29 00:48:33,953 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-29 00:48:33,953 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:48:33,954 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-29 00:48:33,954 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:48:33,954 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-29 00:48:33,954 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:48:33,955 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-29 00:48:33,955 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-29 00:50:49,064 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-29 00:50:49,065 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:50:49,065 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-29 00:50:49,066 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:50:49,066 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-29 00:50:49,066 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:50:49,067 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-29 00:50:49,067 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-29 00:54:39,174 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-29 00:54:39,175 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:54:39,176 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-29 00:54:39,176 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:54:39,176 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-29 00:54:39,176 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:54:39,177 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-29 00:54:39,177 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-29 00:55:16,948 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-29 00:55:16,948 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:55:16,948 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-29 00:55:16,949 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:55:16,949 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-29 00:55:16,949 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:55:16,950 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-29 00:55:16,950 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-29 00:56:54,646 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-29 00:56:54,646 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:56:54,647 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-29 00:56:54,647 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:56:54,648 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-29 00:56:54,648 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 00:56:54,648 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-29 00:56:54,649 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-29 01:03:20,470 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-29 01:03:20,470 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 01:03:20,471 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-29 01:03:20,471 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 01:03:20,471 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-29 01:03:20,471 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 01:03:20,472 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-29 01:03:20,472 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-29 01:08:24,951 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-29 01:08:24,952 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 01:08:24,953 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-29 01:08:24,953 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 01:08:24,953 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-29 01:08:24,953 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 01:08:24,954 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-29 01:08:24,954 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-29 01:08:25,024 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-29 01:08:25,024 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-29 01:08:25,028 - werkzeug - INFO -  * Restarting with stat
+2024-11-29 01:08:25,338 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-29 01:08:25,338 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 01:08:25,339 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-29 01:08:25,339 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 01:08:25,339 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-29 01:08:25,339 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 01:08:25,340 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-29 01:08:25,340 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-29 01:08:25,379 - werkzeug - WARNING -  * Debugger is active!
+2024-11-29 01:08:25,424 - werkzeug - INFO -  * Debugger PIN: 919-312-444
+2024-11-29 01:13:08,845 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/routes/character_routes.py', reloading
+2024-11-29 01:13:08,918 - werkzeug - INFO -  * Restarting with stat
+2024-11-29 01:13:09,244 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-29 01:13:09,244 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 01:13:09,245 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-29 01:13:09,245 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 01:13:09,245 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-29 01:13:09,246 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 01:13:09,246 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-29 01:13:09,246 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-29 01:13:09,285 - werkzeug - WARNING -  * Debugger is active!
+2024-11-29 01:13:09,287 - werkzeug - INFO -  * Debugger PIN: 919-312-444
+2024-11-29 01:13:22,184 - werkzeug - INFO - 127.0.0.1 - - [29/Nov/2024 01:13:22] "[31m[1mGET /character/get-stats/1 HTTP/1.1[0m" 403 -
+2024-11-29 01:13:30,329 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-29 01:13:30,332 - sqlalchemy.engine.Engine - INFO - SELECT players.id AS players_id, players.user_name AS players_user_name, players.email AS players_email, players.user_code AS players_user_code, players.password AS players_password, players.uuid AS players_uuid 
+FROM players 
+WHERE players.email = %s 
+ LIMIT %s
+2024-11-29 01:13:30,332 - sqlalchemy.engine.Engine - INFO - [generated in 0.00024s] ('test@test.co', 1)
+2024-11-29 01:13:30,599 - werkzeug - INFO - 127.0.0.1 - - [29/Nov/2024 01:13:30] "POST /player/login HTTP/1.1" 200 -
+2024-11-29 01:13:45,064 - werkzeug - INFO - 127.0.0.1 - - [29/Nov/2024 01:13:45] "[31m[1mGET /character/get-stats/1 HTTP/1.1[0m" 403 -
+2024-11-29 01:13:56,218 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-29 01:13:56,220 - sqlalchemy.engine.Engine - INFO - SELECT characters.id AS characters_id, characters.name AS characters_name, characters.level AS characters_level, characters.health AS characters_health, characters.energy AS characters_energy, characters.experience AS characters_experience, characters.player_id AS characters_player_id 
+FROM characters 
+WHERE characters.id = %s 
+ LIMIT %s
+2024-11-29 01:13:56,220 - sqlalchemy.engine.Engine - INFO - [generated in 0.00034s] (1, 1)
+2024-11-29 01:13:56,226 - werkzeug - INFO - 127.0.0.1 - - [29/Nov/2024 01:13:56] "GET /character/get-stats/1 HTTP/1.1" 200 -
+2024-11-29 01:20:57,707 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/models/character_model.py', reloading
+2024-11-29 01:20:57,798 - werkzeug - INFO -  * Restarting with stat
+2024-11-29 01:20:58,109 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-29 01:20:58,110 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 01:20:58,110 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-29 01:20:58,110 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 01:20:58,111 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-29 01:20:58,111 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 01:20:58,112 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-29 01:20:58,112 - sqlalchemy.engine.Engine - INFO - COMMIT
+2024-11-29 01:20:58,156 - werkzeug - WARNING -  * Debugger is active!
+2024-11-29 01:20:58,159 - werkzeug - INFO -  * Debugger PIN: 919-312-444
+2024-11-29 01:21:00,174 - werkzeug - INFO -  * Detected change in '/var/www/html/backend_game/text_adventure_game/models/character_model.py', reloading
+2024-11-29 01:21:00,245 - werkzeug - INFO -  * Restarting with stat
+2024-11-29 01:21:00,530 - sqlalchemy.engine.Engine - INFO - SELECT DATABASE()
+2024-11-29 01:21:00,530 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 01:21:00,531 - sqlalchemy.engine.Engine - INFO - SELECT @@sql_mode
+2024-11-29 01:21:00,531 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 01:21:00,531 - sqlalchemy.engine.Engine - INFO - SELECT @@lower_case_table_names
+2024-11-29 01:21:00,531 - sqlalchemy.engine.Engine - INFO - [raw sql] ()
+2024-11-29 01:21:00,532 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2024-11-29 01:21:00,532 - sqlalchemy.engine.Engine - INFO - COMMIT
