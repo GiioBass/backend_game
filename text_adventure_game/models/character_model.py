@@ -15,4 +15,12 @@ class Character(Base):
     # Relación con el jugador propietario
     player_id = Column(Integer, ForeignKey('players.id'), nullable=False)
     player = relationship('Player', back_populates='characters')
- 
+
+    
+    def __init__(self, name,level,health,energy,experience,player_id):
+        self.name = name
+        self.level = level
+        self.health = health
+        self.energy = energy
+        self.experience = experience
+        self.player_id = player_id
