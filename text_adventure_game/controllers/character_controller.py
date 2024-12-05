@@ -1,8 +1,8 @@
 from flask import jsonify, request, session
-from text_adventure_game.database import Session
 from text_adventure_game.models.player_model import Player
 from text_adventure_game.models.player_model import Character
 from text_adventure_game.utils.logger import logger
+from text_adventure_game.database import Session
 
 session_db = Session()
 
